@@ -5,6 +5,8 @@ import Carousel from "./components/Carousel";
 import HowItWorks from "./components/HowItWorks";
 import Sysphus from "./components/Sysphus";
 import Support from "./components/Support";
+import FaQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 //TODO: ADD GRADIENT
 
@@ -19,6 +21,8 @@ const App = () => {
 			<HowItWorks />
 			<Sysphus />
 			<Support />
+			<FaQ />
+			<Footer />
 		</div>
 	);
 };
