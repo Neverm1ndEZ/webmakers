@@ -7,7 +7,7 @@ import IMG5 from "../assets/Frame 13.png";
 
 const Carousel = () => {
 	return (
-		<div className="w-full flex flex-col items-center justify-center mb-[5rem]">
+		<div className="hidden md:flex w-full flex-col items-center justify-center mb-[5rem]">
 			<div className="mt-[5rem] mb-[3.75rem] gap-8 flex justify-evenly overflow-clip">
 				<img src={IMG1} alt="image-1" />
 				<img src={IMG2} alt="image-2" />

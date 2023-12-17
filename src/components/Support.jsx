@@ -1,5 +1,6 @@
 import React from "react";
 import { tickd, tickl, tickw } from "../assets/index";
+// import background from "../assets/footer.png";
 
 const offerings = [
 	{
@@ -38,15 +39,20 @@ const offerings = [
 
 const Support = () => {
 	return (
-		<div className="mt-[9rem] text-center">
-			<h1 className="text-[3.625rem] font-bold text-[#262E35] mb-3">
+		<div
+			className="pt-[6rem] flex flex-col justify-center items-center"
+			// style={{
+			// 	background: `url(${background}) center/cover no-repeat, lightgray 60%`,
+			// }}
+		>
+			<h1 className="text-center leading-[3.25rem] px-12 text-[2.625rem] md:text-[3.25rem] font-bold text-[#262E35] mb-4">
 				Pricing made for collaborative support.
 			</h1>
-			<p className="text-xl text-[#6B7280] font-medium text-center mx-[23rem] mb-[3rem] px-12">
+			<p className="text-base md:text-xl text-[#6B7280] font-medium text-center mb-[3rem] lg:px-28 md:px-12 px-[4.5rem]">
 				Plain is made for your entire company. Only pay for users that actually
 				message customers. Everyone else is free, forever.
 			</p>
-			<div className="flex justify-center items-center gap-6 mb-[5rem]">
+			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-[5rem] mx-2">
 				<div className="px-6 py-10 border border-[#E5E7EB] rounded-xl text-left max-w-sm">
 					<h1 className="text-[#191D23] text-2xl mb-3 font-bold">Freebie</h1>
 					<p className="text-base font-medium pr-8 text-[#6B7280] mb-5">

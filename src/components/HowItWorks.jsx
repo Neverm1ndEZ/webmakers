@@ -2,7 +2,7 @@ import React from "react";
 
 const HowItWorks = () => {
 	return (
-		<div className="flex justify-center items-center mb-[8rem]">
+		<div className="hidden lg:flex justify-center items-center mb-[8rem]">
 			<div className="relative w-[1260px] h-[535px] bg-white rounded-xl overflow-hidden border border-solid border-[#E5E7EB] shadow-sm">
 				<div className="absolute top-[51px] left-[490px] font-bold text-[#1F2937] text-5xl text-center whitespace-nowrap">
 					How it works

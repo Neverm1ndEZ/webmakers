@@ -4,7 +4,7 @@ import avatar from "../assets/avatar.png";
 
 const Sysphus = () => {
 	return (
-		<div className="bg-[#F9FAFB] px-[5.62rem] py-[6rem]">
+		<div className="hidden lg:block bg-[#F9FAFB] px-[5.62rem] py-[6rem]">
 			<div className="mb-10 flex justify-center">
 				<img src={company} alt="company-logo" />
 			</div>
